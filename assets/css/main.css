@@ -141,7 +141,7 @@ section {
   margin: 0;
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--color-brown);
 }
 
 .breadcrumbs ol a {
