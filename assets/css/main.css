@@ -251,7 +251,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 70px;
   margin-right: 6px;
 }
 
@@ -265,6 +265,13 @@ section {
 
 .header .logo h1 span {
   color: var(--color-primary);
+}
+
+@media (min-width: 1280px) {
+  .header .logo img {
+    max-height: 100px;
+    margin-right: 6px;
+  }
 }
 
 /*--------------------------------------------------------------
