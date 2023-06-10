@@ -1933,11 +1933,11 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-brown);
 }
 
 .hero .info .btn-get-started:hover {
-  background: var(--color-primary);
+  background: var(--color-brown);
 }
 
 .hero .carousel-control-prev {
