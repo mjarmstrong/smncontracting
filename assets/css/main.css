@@ -188,7 +188,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ffc732;
+  background: var(--color-brown);
   color: #fff;
 }
 
@@ -772,7 +772,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #CAC2B5;
+  background: #cac2b5;
 }
 
 .services .service-item:hover h3 {
@@ -2687,7 +2687,7 @@ section {
   font-size: 16px;
   font-size: 1rem;
   border: 0;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -2695,11 +2695,15 @@ section {
   position: absolute;
   visibility: visible;
   white-space: nowrap;
-  width: 1px
+  width: 1px;
 }
 
-.skip-link,.skip-link:active,.skip-link:focus,.skip-link:hover,.skip-link:visited {
-  color: #293339
+.skip-link,
+.skip-link:active,
+.skip-link:focus,
+.skip-link:hover,
+.skip-link:visited {
+  color: #293339;
 }
 
 .skip-link:focus {
@@ -2711,5 +2715,5 @@ section {
   position: static;
   text-align: center;
   text-decoration: none;
-  width: 100%
+  width: 100%;
 }
