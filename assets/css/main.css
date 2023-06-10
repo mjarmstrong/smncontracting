@@ -2600,6 +2600,11 @@ section {
   color: #fff;
 }
 
+.footer .footer-content .footer-info img {
+  margin-bottom: 20px;
+  max-height: 65px;
+}
+
 .footer .footer-content .social-links a {
   font-size: 18px;
   display: inline-block;
