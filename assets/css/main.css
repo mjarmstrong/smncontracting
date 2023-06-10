@@ -1,7 +1,7 @@
 /**
-* Template Name: UpConstruction
+* Template Name: SMN Contracting
 * Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+* Template URL: https://bootstrapmade.com/SMN Contracting-bootstrap-construction-website-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
