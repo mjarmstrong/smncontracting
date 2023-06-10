@@ -146,6 +146,7 @@ section {
 
 .breadcrumbs ol a {
   color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
   transition: 0.3s;
 }
 
