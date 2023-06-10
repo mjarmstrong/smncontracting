@@ -1654,7 +1654,7 @@ section {
   height: 56px;
   font-size: 24px;
   line-height: 0;
-  color: var(--color-primary);
+  color: var(--color-brown);
   border-radius: 50%;
   border: 2px dotted var(--color-brown);
 }
