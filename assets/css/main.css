@@ -1,9 +1,5 @@
 /**
 * Template Name: SMN Contracting
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/SMN Contracting-bootstrap-construction-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
 */
 
 /*--------------------------------------------------------------
@@ -20,7 +16,7 @@
 /* Colors */
 :root {
   --color-default: #364d59;
-  --color-primary: #feb900;
+  --color-primary: #3F6634;
   --color-secondary: #52565e;
 }
 
