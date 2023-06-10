@@ -772,7 +772,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: var(--color-primary);
+  background: #CAC2B5;
 }
 
 .services .service-item:hover h3 {
