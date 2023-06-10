@@ -20,6 +20,7 @@
   --color-default: #364d59;
   --color-primary: #3f6634;
   --color-secondary: #52565e;
+  --color-brown: #82573a;
 }
 
 /* Smooth scroll behavior */
@@ -332,7 +333,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--color-primary);
+    background-color: var(--color-brown);
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
