@@ -13,4 +13,5 @@
 "prettier.trailingComma": "es5",
 "prettier.tabWidth": 2,
 "prettier.useTabs": false,
-"prettier.htmlWhitespaceSensitivity": "strict"
+"prettier.htmlWhitespaceSensitivity": "strict",
+"prettier.printWidth": 150
