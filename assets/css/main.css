@@ -1,5 +1,5 @@
 /**
-* Template Name: SMN Contracting
+* Template Name: S.M.N Contracting
 */
 
 /*--------------------------------------------------------------
@@ -175,7 +175,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: var(--color-brown);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -189,7 +189,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: var(--color-brown);
+  background: var(--color-primary);
   color: #fff;
 }
 

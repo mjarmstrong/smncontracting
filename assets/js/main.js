@@ -1,5 +1,5 @@
 /**
-* Template Name: SMN Contracting
+* Template Name: S.M.N Contracting
 */
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
