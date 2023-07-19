@@ -86,7 +86,7 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .section-header h2 {
@@ -125,6 +125,10 @@ section {
     padding: 80px 0;
   }
 
+  .section-header {
+    padding-bottom: 70px;
+  }
+
   .section-header p {
     max-width: 60%;
   }
@@ -153,8 +157,9 @@ section {
   font-size: 56px;
   font-weight: 700;
   color: #fff;
-  font-family: 'Bank Gothic';
+  font-family: "Bank Gothic";
   letter-spacing: -2px;
+  text-transform: uppercase;
 }
 
 .breadcrumbs ol {
@@ -797,6 +802,7 @@ section {
 
 .services .service-item:hover .icon:before {
   background: var(--color-primary);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.75) 0 0);
 }
 
 .services .service-item:hover h3 {
