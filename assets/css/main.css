@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "Futura Next";
-  src: local("Futura Next"), url("fonts/futuramc-webfont.woff2") format("woff2"), url("fonts/futuramc-webfont.woff") format("woff");
+  src: local("Futura Next"), url("fonts/futura-light-webfont.woff2") format("woff2"), url("fonts/futura-light-webfont.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
