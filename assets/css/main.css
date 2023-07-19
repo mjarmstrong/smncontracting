@@ -19,7 +19,7 @@
 @font-face {
   font-family: "Futura Next";
   src: local("Futura Next"), url("fonts/futuramc-webfont.woff2") format("woff2"), url("fonts/futuramc-webfont.woff") format("woff");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -91,15 +91,18 @@ section {
 
 .section-header h2 {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 300;
   position: relative;
   color: #000;
+  font-family: "Futura Next";
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .section-header h2:before,
 .section-header h2:after {
   content: "";
-  width: 50px;
+  width: 36px;
   height: 2px;
   background: var(--color-primary);
   display: inline-block;
@@ -788,7 +791,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #cac2b5;
+  background: var(--color-primary);
 }
 
 .services .service-item:hover h3 {
@@ -1355,9 +1358,9 @@ section {
 }
 
 .buttn-primary:hover {
-  background-image: linear-gradient(rgb(255 255 255/75%) 0 0);
+  background-image: linear-gradient(rgb(255 255 255/10%) 0 0);
+  color: #fff;
 }
-
 
 /*--------------------------------------------------------------
 # Footer
