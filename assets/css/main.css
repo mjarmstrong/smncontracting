@@ -155,12 +155,18 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 56px;
+  font-size: 42px;
   font-weight: 700;
   color: #fff;
   font-family: "Bank Gothic";
   letter-spacing: -2px;
   text-transform: uppercase;
+}
+
+@media (min-width: 1199px) {
+  .breadcrumbs h2 {
+    font-size: 56px;
+  }
 }
 
 .breadcrumbs ol {
@@ -923,7 +929,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
+  color: #000;
 }
 
 .about .our-story p:last-child {
