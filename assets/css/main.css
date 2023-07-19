@@ -151,9 +151,10 @@ section {
 
 .breadcrumbs h2 {
   font-size: 56px;
-  font-weight: 500;
+  font-weight: 700;
   color: #fff;
-  font-family: var(--font-secondary);
+  font-family: 'Bank Gothic';
+  letter-spacing: -2px;
 }
 
 .breadcrumbs ol {
