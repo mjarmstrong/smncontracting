@@ -9,9 +9,9 @@
 
 /* Fonts */
 @font-face {
-  font-family: "Bank Gothic Medium";
-  src: local("Bank-Gothic-Medium"), url("fonts/Bank-Gothic-Medium.woff2") format("woff2"), url("fonts/Bank-Gothic-Medium.woff") format("woff");
-  font-weight: 500;
+  font-family: "Bank Gothic";
+  src: local("BankGothic"), url("fonts/bankgothic_regular-webfont.woff2") format("woff2"), url("fonts/bankgothic_regular-webfont.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -1343,7 +1343,6 @@ section {
 .buttn-primary {
   background: var(--color-primary);
 }
-
 
 /*--------------------------------------------------------------
 # Footer
