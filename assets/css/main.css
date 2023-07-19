@@ -10,8 +10,16 @@
 /* Fonts */
 @font-face {
   font-family: "Bank Gothic";
-  src: local("BankGothic"), url("fonts/bankgothic_regular-webfont.woff2") format("woff2"), url("fonts/bankgothic_regular-webfont.woff") format("woff");
+  src: local("BankGothic"), url("fonts/bankgothic-regular.woff2") format("woff2"), url("fonts/bankgothic-regular.woff") format("woff");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Next";
+  src: local("Futura Next"), url("fonts/futura-next-light.woff2") format("woff2"), url("fonts/futura-next-light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -85,7 +93,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   position: relative;
-  color: #2e3135;
+  color: #000;
 }
 
 .section-header h2:before,
@@ -1205,7 +1213,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   inset: 0;
 }
@@ -1226,9 +1234,11 @@ section {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
+  font-size: 64px;
   font-weight: 700;
   position: relative;
+  font-family: "Bank Gothic";
+  letter-spacing: -1px;
 }
 
 .hero .info h2:after {
@@ -1246,12 +1256,12 @@ section {
 
 @media (max-width: 768px) {
   .hero .info h2 {
-    font-size: 36px;
+    font-size: 42px;
   }
 }
 
 .hero .info p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   font-size: 18px;
 }
 
