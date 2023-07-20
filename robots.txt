@@ -12,4 +12,4 @@ Disallow: /login/
 Disallow: /logout/
 Disallow: /search/
 
-Sitemap: https://www.smncontracting.com/sitemap.xml
+Sitemap: https://smncontracting.com/sitemap.xml
