@@ -1383,11 +1383,11 @@ section {
 
 @media (max-width: 768px) {
   .hero .info {
-    padding: 0 50px;
+    padding: 0 24px;
   }
 
   .hero .info .container {
-    margin-top: 32px;
+    margin-top: 38spx;
   }
 }
 
