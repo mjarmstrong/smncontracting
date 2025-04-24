@@ -608,7 +608,7 @@ section {
 }
 
 .get-started .content p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .get-started .php-email-form {
@@ -804,7 +804,7 @@ section {
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -1532,7 +1532,7 @@ section {
   color: #fff;
   background: url("../img/footer-bg.jpg") top center no-repeat;
   background-size: cover;
-  font-size: 14px;
+  font-size: 16px;
   padding: 80px 0 60px 0;
   position: relative;
 }
