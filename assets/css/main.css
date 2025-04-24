@@ -814,15 +814,6 @@ section {
   color: var(--color-primary);
 }
 
-.services .service-item:hover .icon:before {
-  background: var(--color-primary);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.75) 0 0);
-}
-
-.services .service-item:hover h3 {
-  border-color: var(--color-primary);
-}
-
 /*--------------------------------------------------------------
 # Our Projects Section
 --------------------------------------------------------------*/
@@ -1039,7 +1030,7 @@ section {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about h2 {
+.about h1 {
   font-size: 48px;
   font-weight: 700;
   font-family: var(--font-secondary);
@@ -1429,7 +1420,7 @@ section {
 
 .hero .info p {
   color: rgba(255, 255, 255, 1);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .hero .info .btn-get-started {
