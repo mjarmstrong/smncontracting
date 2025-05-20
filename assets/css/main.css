@@ -25,8 +25,7 @@
 }
 
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Open Sans", sans-serif;
 }
@@ -90,7 +89,8 @@ section {
   padding-bottom: 30px;
 }
 
-.section-header h2 {
+.section-header h2,
+.section-header .h2 {
   font-size: 32px;
   font-weight: 300;
   position: relative;
@@ -101,7 +101,9 @@ section {
 }
 
 .section-header h2:before,
-.section-header h2:after {
+.section-header h2:after,
+.section-header .h2:before,
+.section-header .h2:after {
   content: "";
   width: 20px;
   height: 2px;
@@ -109,11 +111,13 @@ section {
   display: inline-block;
 }
 
-.section-header h2:before {
+.section-header h2:before,
+.section-header .h2:before {
   margin: 0 15px 10px 0;
 }
 
-.section-header h2:after {
+.section-header h2:after,
+.section-header .h2:after {
   margin: 0 0 10px 15px;
 }
 
@@ -131,7 +135,9 @@ section {
   }
 
   .section-header h2:before,
-  .section-header h2:after {
+  .section-header h2:after,
+  .section-header .h2:before,
+  .section-header .h2:after {
     width: 36px;
   }
 
@@ -159,6 +165,7 @@ section {
   inset: 0;
 }
 
+.breadcrumbs h1,
 .breadcrumbs h2 {
   font-size: 42px;
   font-weight: 700;
@@ -169,6 +176,7 @@ section {
 }
 
 @media (min-width: 1199px) {
+  .breadcrumbs h1,
   .breadcrumbs h2 {
     font-size: 56px;
   }
@@ -587,7 +595,7 @@ section {
 
 .get-started .content h3 {
   color: var(--color-secondary);
-  font-family: 'Futura Next';
+  font-family: "Futura Next";
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 25px;
@@ -756,7 +764,7 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  padding: 40px;
+  padding: 36px;
   background: #fff;
   height: 100%;
 }
@@ -786,11 +794,11 @@ section {
   border-radius: 50px;
   z-index: 1;
   top: 10px;
-  right: -15px;
+  right: -5px;
   transition: 0.3s;
 }
 
-.services .service-item h3 {
+.services .service-item h2 {
   color: var(--color-default);
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -926,7 +934,8 @@ section {
   transform: scale(1.1);
 }
 
-.projects .section-header h2 {
+.projects .section-header h2,
+.projects .section-header .h2 {
   font-size: 28px;
 }
 
@@ -943,7 +952,8 @@ section {
     padding-bottom: 50px;
   }
 
-  .projects .section-header h2 {
+  .projects .section-header h2,
+  .projects .section-header .h2 {
     font-size: 32px;
   }
 
@@ -1365,7 +1375,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  transition: transform .6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
   z-index: 1;
 }
 
